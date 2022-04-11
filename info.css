@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100 ;
+    width: 100;
+    background-size: cover;
+    background-image:url("bg2.jpg") ;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 200px 50px 200px;
+    background: linear-gradient(145deg, #ffffff4d, #9c9a9a73);
+    backdrop-filter: blur(12px);
+    border-radius: 50px 30px 30px 50px;
+    height: 600px;
+    box-shadow: 20px 20px 40px #807d7de0, -20px -20px 40px #cfccccd3;
+    align-items: left;
+    flex-direction: column;
+}
+
+.flex-item {
+    padding: 1em;
+    box-sizing: border-box;
+    height: 400px;
+    width: 50%;
+    display: flex;
+}
+
+
+.hello {
+    margin: 20px;
+}
+
+.bear {
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+    
+    
+    
+}
+
+
+
+h1 {
+    font-family: "bold";
+    position: absolute;
+    left: 75px;
+    padding-top: 5px;
+    right: 20;
+    bottom: 20;
+    color: rgb(67, 17, 232);
+    font-size: 30px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(19, 18, 18);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(229, 231, 236, 0.5);
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    text-align: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    height: 60px;
+    width: auto;
+    top: 30px;
+    text-align: right;
+}
+
+a:nth-child(1) {
+    width: 100px;
+    margin-right:140 ;
+    padding: 15px;
+}
+
+a:nth-child(2) {
+    width: 120px;
+}
+
+a:nth-child(3) {
+    width: 100px;
+}
+
+a:nth-child(4) {
+    width: 160px;
+}
+
+a:nth-child(5) {
+    width: 120px;
+}
+ul li a {
+    font-family: "Roboto", sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    padding: 20px;
+    padding-bottom: 25px;
+    top: 60px;
+    font-weight: bold;
+    margin-right: 20px 60px 20px 60px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.navbar a:hover {
+    color: rgba(250, 250, 250, 0.733);
+
+    background: linear-gradient(145deg, #0202024d, #2e2c2c73);
+    border-radius: 25px;
+}
+h2{
+    font-family: "bold";
+    position: absolute;
+    left: 650px;
+    padding-top: 10px;
+    left: 400;
+    bottom: 450px;
+    color: rgb(67, 17, 232);
+    font-size: 60px;
+    top:100 px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 40px;
+    
+    border-radius: 40px;
+    text-align: right;
+}
+.Enroll-form button {
+    background: #300b6f;
+    background-image: -webkit-linear-gradient(top, #0f064a, #7d71e5);
+    background-image: -moz-linear-gradient(top, #0e0033, #0e0330);
+    background-image: -ms-linear-gradient(top, #6fcbdf, #489eed);
+    background-image: -o-linear-gradient(top, #60adeb, #16aee1);
+    background-image: linear-gradient(to bottom, #250be5, #1071b7);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 7px 2px 13px #eaeff2;
+    -webkit-box-shadow: 7px 7px 10px #e7f0f6;
+    -moz-box-shadow: 7px 7px 10px #e6ebed;
+    box-shadow: 7px -7px 10px #21014381, 11px 7px 10px #8c888c94;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: lighter;
+    opacity: 0.8;
+    border: 0;
+    margin-left: 650px;
+    margin-bottom: 30px;
+            
+}
+
+.Enroll-form button:hover {
+    background: #000002;
+    background-image: -webkit-linear-gradient(top,#9ac4d4, #34bedde3);
+    background-image: -moz-linear-gradient(top, #90d6f1, #edf5f8);
+    background-image: -ms-linear-gradient(top, #edf0f2, #fafdff);
+    background-image: -o-linear-gradient(top, #97aeff, #f7f6fe);
+    background-image: linear-gradient(to bottom, #3814ee, #1c81c4);
+    color: rgb(0, 0, 0);
+    border: 0;
+    opacity: 1;
+    font-size: 32px;
+    padding: 07px 40px 07px 40px;
+    text-decoration: bold;
+}

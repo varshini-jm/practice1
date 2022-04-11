@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: 
+    url('log.jpg') , 
+    url('log1.jpg'),
+    url('log3.jpg');
+    background-repeat : repeat-x;
+    background-size: cover;
+    transition: 5s;
+    animation-name: animate ;
+    animation-direction:alternate-reverse ;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+}
+@keyframes animate {
+    0%{
+        background-image: url(log.jpg);
+    }40%{
+        background-image: url(log1.jpg);
+    }80%{
+            background-image: url(log3.jpg);
+    }
+}
+    
+    
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    right: 650px;
+    padding-top: 30px;
+    right: 20;
+    bottom: 20;
+    color: rgb(41, 39, 39);
+    font-size: 40px;
+    top: 0;
+    width: 150px;
+    height: 77px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(19, 18, 18);
+    border-radius: 5px;
+    text-align: center;
+}
+body #p1 {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    padding-top: 95px;
+    right: 780px;
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    top: 60px;
+}
+
+
+
+.login-form {
+    width: 40%;
+    margin-left: 10px;
+    padding: 60px 60px 50px 30px;
+    align-content: space-around;
+    line-height: 30px;
+    background-image: linear-gradient(180deg, rgba(32, 170, 183, 0.925), rgba(3, 22, 49, 0.438));
+    height: 500px;
+    border-radius: 50px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    text-align: center;
+}
+
+.login-form label {
+    position: absolute;
+    top: 10px;
+    left: -190px;
+    width: 100%;
+    color: rgba(14, 5, 39, 0.925);
+    transition: 0.15s;
+}
+
+.login-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: linear-gradient(145deg, #10acea, #f2f1f6);
+    border-radius: 15px;
+    width: 100%;
+    border: 0;
+    margin: 0 0 60px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-bottom: 2px solid #eeeaea00;
+}
+
+.login-form input:focus {
+    border-color: #58a4d3;
+}
+
+
+.login-form input:focus label {
+    font-size: 14px;
+    color: white
+}
+
+.login-form button {
+    background: #300b6f;
+    background-image: -webkit-linear-gradient(top, #0f064a, #060133);
+    background-image: -moz-linear-gradient(top, #0e0033, #0e0330);
+    background-image: -ms-linear-gradient(top, #6fcbdf, #489eed);
+    background-image: -o-linear-gradient(top, #60adeb, #16aee1);
+    background-image: linear-gradient(to bottom, #060225, #031725);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 7px 2px 13px #eaeff2;
+    -webkit-box-shadow: 7px 7px 10px #e7f0f6;
+    -moz-box-shadow: 7px 7px 10px #e6ebed;
+    box-shadow: 7px -7px 10px #21014381, 11px 7px 10px #8c888c94;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding: 05px 30px 05px 30px;
+    text-decoration: lighter;
+    opacity: 0.8;
+    border: 0;
+}
+
+.login-form button:hover {
+    background: #000002;
+    background-image: -webkit-linear-gradient(top,#9ac4d4, #34bedde3);
+    background-image: -moz-linear-gradient(top, #90d6f1, #edf5f8);
+    background-image: -ms-linear-gradient(top, #edf0f2, #fafdff);
+    background-image: -o-linear-gradient(top, #97aeff, #f7f6fe);
+    background-image: linear-gradient(to bottom, #3814ee, #1c81c4);
+    color: rgb(0, 0, 0);
+    border: 0;
+    opacity: 1;
+    font-size: 32px;
+    padding: 07px 40px 07px 40px;
+    text-decoration: bold;
+}
+
+.login-form .message {
+    margin: 5px 0 0;
+    color: #f2f8f9;
+    font-size: 15px;
+    height: 20px;
+}
+
+.login-form .message1 {
+    margin: 5px 0 0;
+    color: #edf0f3;
+    font-size: 10px;
+}
+
+.login-form .message2 {
+    margin: 5px 0 0;
+    color: #edf0f3;
+    font-size: 15px;
+}
+
+.login-form .message a {
+    color: rgb(204, 224, 237);;
+    text-decoration: none;
+}
+
+.login-form .message1 a {
+    color: rgb(204, 224, 237);
+    text-decoration: none;
+}
+
+.login-form .message2 a {
+    color: rgb(204, 224, 237);
+    text-decoration: none;
+}
